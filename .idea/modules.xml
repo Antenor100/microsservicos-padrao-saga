@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/inventory-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/inventory-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/inventory-service/microsservicos-padrao-sagag.inventory-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/inventory-service/microsservicos-padrao-sagag.inventory-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/orchestrator-service/microsservicos-padrao-sagag.orchestrator-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/orchestrator-service/microsservicos-padrao-sagag.orchestrator-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/order-service/microsservicos-padrao-sagag.order-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/order-service/microsservicos-padrao-sagag.order-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/payment-service/microsservicos-padrao-sagag.payment-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/payment-service/microsservicos-padrao-sagag.payment-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/product-validation-service/microsservicos-padrao-sagag.product-validation-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/product-validation-service/microsservicos-padrao-sagag.product-validation-service.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/order-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/order-service.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/payment-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/payment-service.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/product-validation-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/product-validation-service.main.iml" />
     </modules>
   </component>
 </project>
