@@ -2,20 +2,20 @@ version: '3'
 
 services:
 
-  # NO SQL
+  # NO SQLs DBs
   order-db:
     container_name: order-db
     image: mongo:latest
     restart: "always"
     networks:
-        - orchestrator-saga
+      - orchestrator-saga
     environment:
-        MONGO_INITDB_ROOT_USERNAME: root
-        MONGO_INITDB_ROOT_PASSWORD: 1234
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: 1234
     ports:
-        - "27017:27017"
+      - "27017:27017"
 
-  # SQL
+  # SQLs DBs
   product-db:
     container_name: product-db
     image: postgres:latest
@@ -55,6 +55,7 @@ services:
     ports:
       - "5434:5432"
 
+# Kafka and Redpanda
   kafka:
     container_name: kafka
     image: obsidiandynamics/kafka
@@ -94,6 +95,7 @@ services:
     depends_on:
       - "kafka"
 
+# Services
   orchestrator-service:
     container_name: orchestrator-service
     build: ./orchestrator-service
@@ -174,6 +176,7 @@ services:
     ports:
       - "8092:8092"
 
+# Networks
 networks:
   orchestrator-saga:
     driver: bridge
